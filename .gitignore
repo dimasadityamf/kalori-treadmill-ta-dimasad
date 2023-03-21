@@ -1,8 +1,9 @@
-.jpg
-.mp4
-model/
+# jpg and video
 *.jpg
+*.mp4
+
+# model files
+model/
 
 # Jupyter Notebook
 .ipynb_checkpoints
-*.mp4
