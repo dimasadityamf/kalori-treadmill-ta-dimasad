@@ -155,3 +155,4 @@ cython_debug/
 .jpg
 .mp4
 model/
+*.jpg

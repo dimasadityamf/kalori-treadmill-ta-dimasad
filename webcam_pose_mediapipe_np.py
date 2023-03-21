@@ -56,6 +56,7 @@ period = '00:00:00'
 frame_width = int(vid.get(3))
 frame_height = int(vid.get(4))
 
+# function for regression on panjang langkah
 def reg_panjang(ac_time, step):
     poly = PolynomialFeatures(degree = 4)
     X_poly = poly.fit_transform(df.drop('panjang',axis='columns'))
